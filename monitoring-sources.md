@@ -1,8 +1,21 @@
 # Monitoring sources
 
-**Source classes ship complete. Specific sources ship as brackets — fill before first digest.**
+**Source classes ship complete. Specific sources ship as brackets. Fill them before the first digest.**
 
 The class structure is the reusable part. What goes in each class is company-specific and should be revisited quarterly.
+
+---
+
+## Running before this file is filled
+
+If source lists are still bracketed or the roadmap location is blank, MONITOR still runs, but on a partial sweep:
+
+1. Sweep only what's connected to something real: vendors and repos named in the ledger, open brief IDs, and standing re-triggers.
+2. Mark the digest `Sweep scope: partial`, and name the unconfigured classes.
+3. With no roadmap location, only brief IDs and ledger entries can justify a promotion. Say so.
+4. List "monitoring sources / roadmap location not configured" under open loops, with an owner if one is known.
+
+Don't fill an unconfigured class with sources you picked yourself. Choosing what the team watches is configuration, and configuration belongs to the team.
 
 ---
 
@@ -27,7 +40,7 @@ Check: weekly. Watch for breaking changes and maintainer-departure signals.
 
 ## Class 3 — Model releases and capability shifts (Tier 2)
 
-Provider announcement channels and model cards. A model release only gets promoted if it touches a named roadmap item — new frontier models are interesting every week and roadmap-relevant considerably less often.
+Provider announcement channels and model cards. A model release only gets promoted if it touches a named roadmap item. New frontier models are interesting every week and roadmap-relevant considerably less often.
 
 - [PROVIDER — ]
 - [PROVIDER — ]
@@ -50,7 +63,7 @@ Product launches, pricing changes, and positioning shifts from named competitors
 - [COMPETITOR — ]
 - [COMPETITOR — ]
 
-Check: weekly. Most of this is Tier 4 and lands in "also seen." Pricing changes are the exception — those are often Tier 2 and often promotable.
+Check: weekly. Most of this is Tier 4 and lands in "also seen." Pricing changes are the exception. Those are often Tier 2 and often promotable.
 
 ## Class 6 — Practitioner signal (Tier 3)
 
@@ -82,10 +95,10 @@ Pulled from ledger entries with `HOLD` or `PASS` verdicts. These are the specifi
 |---|---|---|---|
 | [EV-…] | [specific condition] | [class n] | [no] |
 
-Review this table at the start of every digest. It is the main reason the digest is worth reading — it converts old decisions into live monitoring rather than archaeology.
+Review this table at the start of every digest. It's the main reason the digest is worth reading. It turns old decisions into live monitoring rather than archaeology.
 
 ## Sources deliberately excluded
 
-Record what was considered and dropped, so it doesn't get re-added quarterly.
+Record what was considered and dropped, so it doesn't get re-added every quarter.
 
 - [SOURCE — reason: too much volume / low signal / vendor-controlled / duplicated by another class]
